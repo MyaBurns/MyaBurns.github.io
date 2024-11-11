@@ -2,8 +2,7 @@ body{
     background-color:lightcyan;
 h1{
     background-color:rgba(5, 144, 84, 0.562);
-
-}
+    font-family: 'Edu Australia VIC WA NT Hand Precursive,'"
 h2{
     background-color: rgba(156, 212, 188, 0.485);
     color:rgb(255, 255, 255);
@@ -53,4 +52,13 @@ border-color:aliceblue;
 
 button:hover {
 background-color: bisque;
+}
+
+/*desktop style*/
+@media only screen and (min-width: 992px) {
+    body{
+        font-size: 16px;
+        width: 80%;
+        margin: auto;
+    }
 }
