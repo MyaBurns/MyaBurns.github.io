@@ -82,3 +82,26 @@ background-color: bisque;
 .container-flexbox {
     display: flex;
 }
+body {
+    font-family: sans-serif;
+  }
+  p,
+  ul {
+    border: 3px solid rgb(51, 153, 63);
+    padding: 0.2em;
+  }
+  
+  .block,
+  li {
+    border: 1px solid blue;
+    padding: 0.2em;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .block {
+    display: block;
+  }
