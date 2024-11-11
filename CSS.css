@@ -21,3 +21,11 @@ img{
 li.odd{
     background-color: bisque;
 }
+
+td.orange{
+    background-color:bisque;
+}
+
+td.blue{
+    background-color: rgba(0, 51, 255, 0.133);
+}
