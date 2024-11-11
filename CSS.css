@@ -12,6 +12,9 @@ h3{
     background-color:rgba(68, 166, 124, 0.458);
     color:rgb(255, 255, 255);
 }
+p{
+    background-color:rgba(95, 158, 160, 0.349) ;
+}
 img{
     border-radius: 55px;
 }
