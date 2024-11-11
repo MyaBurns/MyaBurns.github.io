@@ -50,3 +50,7 @@ button{
 background-color:azure;
 border-color:aliceblue;
 }
+
+button:hover {
+background-color: bisque;
+}
