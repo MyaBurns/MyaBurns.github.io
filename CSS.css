@@ -45,6 +45,8 @@ footer{
     color: aliceblue;
 }
 
-nav{
+button{
 /* Make About and Project links into buttons */
+background-color:azure;
+border-color:aliceblue;
 }
