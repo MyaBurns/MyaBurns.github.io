@@ -23,7 +23,12 @@ if(hour < 12){
     greeting.innerHTML += "Good evening!";
 };
 
-var alert = document.getElementById("btn-alert").addEventListener("click", () => {
+var alertbtn = document.getElementById("btn-alert")
+alertbtn.addEventListener("click", () => {
     console.log('hi there')
     alert();
 });
+
+alertbtn.addEventListener("mouseover", (e)=>{
+    alertbtn.innerHTML = 'Press me'
+})
