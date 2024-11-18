@@ -5,18 +5,20 @@ const d = new Date();
 let hour = d.getHours();
 let year = d.getFullYear();
 year = year.toString()
-var yearFinal = year.split(" ")[3]
-copyright.innerHTML+=d
+copyright.innerHTML+=year
 console.log(d);
 
 var greeting = document.getElementById("greeting")
 if(hour < 12){
-    console.log ("Good morning!")
-    greeting.innerHTML += "Good morning!"
+    console.log ("Good morning!");
+    greeting.className = "greetingMorning"
+    greeting.innerHTML += "Good morning!";
 } else if(hour > 12 && hour < 17) {
-    console.log ("Good afternoon!")
-    greeting.innerHTML += "Good afternoon!"
+    console.log ("Good afternoon!");
+    greeting.className = "greetingAfternoon"
+    greeting.innerHTML += "Good afternoon!";
 } else {
-    console.log ("Good evening!")
-    greeting.innerHTML += "Good evening!"
+    console.log ("Good evening!");
+    greeting.className = "greetingEvening";
+    greeting.innerHTML += "Good evening!";
 };
