@@ -32,3 +32,16 @@ alertbtn.addEventListener("click", () => {
 alertbtn.addEventListener("mouseover", (e)=>{
     alertbtn.innerHTML = 'Press me'
 })
+
+var numbers = document.getElementById("numbers");
+
+for (let index = 1; index <= 12; index++) {
+    //numbers.innerHTML += "<li> Number" + index + "</li>"
+    var item = document.createElement('li');
+    if(index % 2){
+        item.innerHTML = index + " odd"
+    } else{
+        item.innerHTML = index + " even"
+    }
+    numbers.appendChild(item)
+}
