@@ -103,3 +103,10 @@ body {
   .block {
     display: block;
   }
+
+#greeting{
+    color:floralwhite;
+    background-color: cadetblue;
+    font-family:cursive;
+    font-size:x-large;
+}
