@@ -22,3 +22,8 @@ if(hour < 12){
     greeting.className = "greetingEvening";
     greeting.innerHTML += "Good evening!";
 };
+
+var alert = document.getElementById("btn-alert").addEventListener("click", () => {
+    console.log('hi there')
+    alert();
+});
